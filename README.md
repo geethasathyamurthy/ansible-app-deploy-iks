@@ -46,7 +46,7 @@ This playbook demonstrate how to use the Ansible to deploy the Hackathon Starter
    ibmcloud schematics action create --name deployapp --location us-south --resource-group default --template https://github.com/Cloud-Schematics/ansible-app-deploy-iks --playbook-name site.yml --input "mysql_port": "<mysql_port>" --input "httpd_port": "<httpd_port>" --input "dbuser": "<dbuser>" --input "upassword": "<db_password>"
    ```
 
-   Example output:
+   Example output: 
    ```
    Enter github-token>
    The given --inputs option region: is not correctly specified. Must be a variable name and value separated by an equals sign, like --inputs key=value.
